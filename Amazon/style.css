@@ -1,0 +1,682 @@
+/* common styling */
+* {
+    margin: 0%;
+    font-family: Arial;
+    border: border-box;
+    box-sizing: border-box;
+}
+
+/* navbar border/hover effect */
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+
+/* search border */
+.ser-border {
+    border: none;
+}
+
+.ser-border:active {
+    border: 3px solid #c78c3e;
+}
+
+/* Main navbar */
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* navbar box-1(image) */
+.nav-logo {
+    height: 50px;
+    width: 115px;
+}
+
+.logo {
+    background-image: url(images/logo.png);
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+}
+
+/* navbar box-2(location)  */
+
+.address-text-1 {
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.address-text-2 {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 1px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+/* location icon style  */
+.address-icon {
+    display: flex;
+}
+
+.nav-address {
+    width: 85px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+/* navbar box-3 (search box) */
+
+.nav-search {
+    display: flex;
+    height: 40px;
+    width: 720px;
+    border: 0px;
+    background-color: #febd69;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+/* search box options  */
+.search-select {
+    width: 50px;
+    text-align: center;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #e6e5e5;
+    border: none;
+    border-right: 1px solid rgba(128, 128, 128, 0.404);
+}
+
+/* search box options hover effect */
+.search-select:hover {
+    background-color: #d4cccc;
+}
+
+/* search box-input box  */
+.search-input {
+    width: 625px;
+    border: none;
+    font-size: 15px;
+    padding-left: 10px;
+    outline: none;
+}
+
+/* search icon style  */
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    font-size: 20px;
+    color: #0f1111;
+}
+
+/* search icon hover effect style  */
+.search-icon:hover {
+    background-color: #f0a038;
+}
+
+/* navbar box 4(language) */
+
+.nav-language {
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* us-flag image  */
+.language-logo {
+    background-image: url(images/flag.png);
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.language-txt {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* navbar box-5 (signin)*/
+.nav-signin {
+    height: 50px;
+    padding: 10px;
+}
+
+.nav-signin a {
+    text-decoration: none;
+    color: white;
+}
+
+/* navbar sign-in option upper text  */
+.signin-txt-1 {
+    font-size: 12px;
+}
+
+/* navbar sign-in option lower text */
+.signin-txt-2 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* navbar box-6 (order)*/
+.nav-order {
+    height: 50px;
+    padding: 10px;
+}
+
+.nav-order a{
+    text-decoration: none;
+    color: white;
+}
+
+/* box-7 (cart)*/
+
+.nav-cart {
+    display: flex;
+    height: 50px;
+    padding: 10px;
+}
+
+/* shopping cart icon  */
+.cart-icon {
+    font-size: 34px;
+}
+
+/* shopping cart text style  */
+.cart-text {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+/* navbar items style ends here ! */
+
+/* pannel option (below navbar)*/
+.pannel {
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    color: white;
+}
+
+/* pannel sidebar (All option) */
+.pannel-icon {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+/* pannel sidebar all option text style  */
+.All-text {
+    margin-right: 5px;
+    font-weight: 700;
+    height: 30px;
+    padding: 8px;
+}
+
+/* pannel option anchor tag style  */
+.pannel-options a {
+    font-size: 14px;
+    height: 35px;
+    padding: 8px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* next to All option(sidebar) */
+.pannel-options {
+    width: 95%;
+    display: flex;
+}
+
+/* pannel-border style  */
+.main-section {
+    background-image: url(images/main-img\(top\).jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+/* pannel section ends here! */
+
+/* main box style  */
+.main-section-box {
+    width: 97%;
+    color: black;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    position: absolute;
+    top: 350px;
+    align-items: center;
+}
+
+.main-section-box a {
+    color: #007185;
+    text-decoration: none;
+}
+
+/* shopping section- product showcase */
+.product-main-box {
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 415px;
+    background-color: #e6e5e5;
+}
+
+/* product showcase boxes row 1,2 */
+.product-sub-box-section-1,
+.product-sub-box-section-2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 0px 20px 0px;
+}
+
+/* individual boxes style  */
+.box {
+    width: 310px;
+    height: 420px;
+    background-color: white;
+}
+
+/* individual boxes inner style  */
+.innerbox {
+    padding: 20px;
+}
+
+/* individual boxes bottom text style */
+.innerbox-bottom-text a {
+    text-decoration: none;
+    color: #007185;
+    font-size: 13px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/* product box text style  */
+/* 1,3,4 box common text style  */
+.innerbox-1-text-1 , .innerbox-1-text-2 , .innerbox-1-text-3 , .innerbox-1-text-4 , 
+.innerbox-3-text-1 , .innerbox-3-text-2 , .innerbox-3-text-3 , .innerbox-3-text-4 , 
+.innerbox-4-text-1 , .innerbox-4-text-2 , .innerbox-4-text-3 , .innerbox-4-text-4 , 
+.innerbox-5-text-1 , .innerbox-5-text-2 , .innerbox-5-text-3 , .innerbox-5-text-4 {
+    position: absolute;
+}
+
+/* 1,3 box common anchor tag style  */
+.innerbox-1-text-1 a, .innerbox-1-text-2 a, .innerbox-1-text-3 a, .innerbox-1-text-4 a , 
+.innerbox-3-text-1 a, .innerbox-3-text-2 a, .innerbox-3-text-3 a, .innerbox-3-text-4 a ,
+.innerbox-5-text-1 a, .innerbox-5-text-2 a, .innerbox-5-text-3 a, .innerbox-5-text-4 a {
+    color: #0f1111;
+    font-size: 12px;
+}
+
+/* box 1,3 top alignment */
+.innerbox-1-text-1 , .innerbox-1-text-2 , 
+.innerbox-3-text-1 , .innerbox-3-text-2{
+    top: 180px;
+}
+
+/* box-1,5 left alignment */
+.innerbox-1-text-2 , .innerbox-1-text-4 ,
+.innerbox-5-text-2 , .innerbox-5-text-4{
+    left: 185px;
+} 
+
+/* box 1,3,4 bottom alignment */
+.innerbox-1-text-3 , .innerbox-1-text-4 , 
+.innerbox-3-text-3 , .innerbox-3-text-4 , 
+.innerbox-4-text-2 , .innerbox-4-text-3 ,
+.innerbox-4-text-4 {
+    bottom: 550px
+} 
+
+/* box-3 left alignment */
+.innerbox-3-text-2 , .innerbox-3-text-4 {
+    left: 845px;
+}
+
+/* box 4 top alignment */
+.innerbox-4-text-1 {
+    top: 225px;
+} 
+/* box 4 anchor tag style  */
+.innerbox-4-text-1 a, .innerbox-4-text-2 a, .innerbox-4-text-3 a, .innerbox-4-text-4 a {
+    color: #0f1111;
+    font-size: 15px;
+}
+
+/* box 4 right alignment */
+.innerbox-4-text-3 {
+    right: 165px;
+}
+
+.innerbox-4-text-4 {
+    right: 100px;
+}
+
+/* box 5 bottom alignment */
+.innerbox-5-text-1 , .innerbox-5-text-2 {
+    bottom: 275px;
+}
+
+.innerbox-5-text-3 , .innerbox-5-text-4 {
+    bottom: 115px;
+} 
+
+/* individual boxes heading style */
+.innerbox-heading {
+    color: #0f1111;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+/* .main-section ends here ! */
+
+
+/* footer section styling starts  */
+
+.footer-menu {
+    position: absolute;
+    top: 1300px;
+    width: 100%;
+    height: 900px;
+}
+
+/* footer pannel 1 */
+.footer-pannel-1 {
+    background-color: #37475a;
+    width: 100%;
+    height: 50px;
+}
+
+/* footer pannel 1 anchor tag style  */
+.footer-pannel-1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer pannel 1 back-to-top hover effect */
+.footer-pannel-1:hover {
+    background-color: #37475aea;
+}
+
+
+/* footer pannel 2 */
+.footer-pannel-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    height: 370px;
+    background-color: #222f3d;
+}
+
+
+.footer-pannel-2 ul a {
+    display: block;
+    text-decoration: none;
+    color: #dddddd;
+    margin: 10px;
+}
+
+.footer-pannel-2 p{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #dddddd;
+    margin: 10px;
+}
+
+.footer-pannel-2 a {
+    font-size: 14px;
+}
+
+/* footer pannel 2 anchor tag hover effect style  */
+.footer-pannel-2 a:hover {
+    text-decoration: underline;
+}
+
+/* footer pannel 3 style*/
+.footer-pannel-3 {
+    background-color: #222f3d;
+    width: 100%;
+    height: 110px;
+    border-top: 0.5px solid #37475ad0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer pannel 3 contents style  */
+.footer-pannel-3-menu {
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+/* footer pannel 3 logo  */
+.footer-pannel-logo a{
+    margin-right: 80px;
+}
+
+/* footer pannel 3 box contents next to logo  */
+.footer-pannel-logo-next-box{
+    width: 425px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer pannel 3 box content (language box) */
+.language-style {
+    background-color: #222f3d;
+    color: #CCCCCC;
+    font-size: 13px;
+    font-weight: lighter;
+    border: none;
+    width: 110px;
+    height: 35px;
+}
+
+/* foonter pannel 3 content box border style  */
+.footer-pannel-style-border {
+    border: 1px solid #6a6c70;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    width: 116px;
+}
+
+/* footer pannel 3 box content (money box) */
+.footer-pannel-money {
+    width: 150px;
+    height: 35px;
+    font-size: 13px;
+    color: #CCCCCC;
+    padding: 6px 18px 6px 8px;
+
+}
+
+/* dollor icon style */
+.dollor-sign-style {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 3px 0px 0px;
+    padding: 6px 10px 6px 0px;
+}
+
+/* footer pannel 3 box content (country box) */
+.footer-pannel-country {
+    width: 145px;
+    height: 35px;
+    color: #CCCCCC;
+    font-size: 13px;
+    padding: 6px 18px 6px 8px;
+}
+
+/* country box image  */
+.logo-style {
+    color: white;
+    padding-left: 10px;
+    font-size: 13px;
+    padding-right: 5px;
+}
+
+/* enthina koduthe ennu ippol arinjuda */
+.innerbox-image-style {
+    margin-left: 0%;
+}
+
+/* footer pannel 4 */
+.footer-pannel-4 {
+    background-color: #131A22;
+    height: 390px;
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-around;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+/* footer pannel 4 anchor tag style  */
+.footer-pannel-4 a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 12px;
+}
+
+/* footer pannel 4 paragrapg tag style */
+.footer-pannel-4 a p{
+    color: #DDDDDD;
+}
+
+/* footer pannel 4 hover effects */
+.footer-pannel-4 a p:hover{
+    text-decoration: underline #DDDDDD;
+}
+
+.footer-pannel-4 a:hover{
+    text-decoration: underline #999999;
+}
+
+
+/* footer bottom list & links horizontal(row) category */
+.footer_bottom_most_list-row-1 {
+    height: 81px;
+    padding-bottom: 10px;
+}
+
+.footer_bottom_most_list-row-2  {
+    height: 68px;
+    margin-bottom: 25px;
+}
+
+.footer_bottom_most_list-row-3 {
+    height: 68px;
+    margin-bottom: 15px;
+
+}
+
+
+/* footer bottom list & links vertical(column) category   */
+.footer_bottom_most_list-1{
+    width: 115px;
+}
+
+.footer_bottom_most_list-2 {
+    width: 121px;
+}
+
+.footer_bottom_most_list-3 {
+    width: 102px;
+}
+
+.footer_bottom_most_list-4 {
+    width: 118px;
+}
+
+.footer_bottom_most_list-5 {
+    width: 148px;
+}
+
+.footer_bottom_most_list-6 {
+    width: 126px;
+}
+
+.footer_bottom_most_list-7 {
+    width: 90px;
+}
+
+/* footer pannel 5(last pannel ,at bootom of page) */
+.footer-pannel-5 {
+    background-color: #131A22;
+    height: 70px;
+}
+/* pannel 5 contents */
+.pannel-5-pages {
+    padding: 10px 0px 30px;
+    height: 50px;
+    color: #DDDDDD;
+    font-size: 12px;
+}
+
+.pages-row-1 , .pages-row-2 {
+   text-align: center;  
+}
+
+.pages-row-1 a {
+    text-decoration: none;
+    color: #DDDDDD;
+    padding: 0px 7.5px;
+}
+
+.pages-row-2 {
+    padding-top: 5px;
+}
+
+
+/* pages-anchor tag hover effect  */
+.pages-row-1 a:hover {
+    text-decoration: underline #DDDDDD;
+}
+
+
+/* hidden item at end of the page */
+.pages-row-3 {
+    text-align: center;
+}
